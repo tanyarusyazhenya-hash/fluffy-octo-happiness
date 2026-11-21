@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "starfall",
+  "version": "${version}",
+  "name": "Starfall Client",
+  "description": "A configurable client-side UI framework.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.starfall.StarfallClient"] },
+  "depends": { "fabricloader": ">=0.18.1", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}
